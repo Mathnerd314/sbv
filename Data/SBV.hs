@@ -222,7 +222,7 @@ module Data.SBV (
   , SMTConfig(..), SMTLibLogic(..), Logic(..), OptimizeOpts(..), Solver(..), SMTSolver(..), boolector, cvc4, yices, z3, mathSAT, sbvCurrentSolver, defaultSMTCfg, sbvCheckSolverInstallation, sbvAvailableSolvers
 
   -- * Symbolic computations
-  , Symbolic, output, SymWord(..)
+  , Symbolic, output, SymWord(..), Quantifier(..)
 
   -- * Getting SMT-Lib output (for offline analysis)
   , compileToSMTLib, generateSMTBenchmarks
